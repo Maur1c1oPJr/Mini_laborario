@@ -1,3 +1,3 @@
-# Classe base de filtros
 class FiltroBase:
-    pass
+    def aplicar(self, sinal):
+        raise NotImplementedError("Método aplicar() deve ser implementado na subclasse.")
