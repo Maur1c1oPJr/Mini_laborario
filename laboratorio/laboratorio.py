@@ -1,7 +1,7 @@
 from sinais.senoide import Senoide
 from sinais.quadrada import Quadrada
 from sistemas.passa_baixa import PassaBaixa
-from utils.plot import plotar
+from utilis.plot import plotar
 
 class Laboratorio:
     def __init__(self):
